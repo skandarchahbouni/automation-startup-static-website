@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AuTom - Building Construction Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar d-none d-xl-block w-100">
+        <div class="row gx-0 align-items-center" style="height: 45px;">
+            <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-muted me-4"><i
+                            class="fas fa-map-marker-alt text-secondary me-2"></i>Boumerdes, Algérie</a>
+                    <a href="#" class="text-muted me-4"><i
+                            class="fas fa-phone-alt text-secondary me-2"></i>+01234567890</a>
+                    <a href="#" class="text-muted me-0"><i
+                            class="fas fa-envelope text-secondary me-2"></i>Example@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a href="#" class="text-muted me-3"><i class="fas fa-clock text-secondary me-2"></i>Lun - Sam 8:00 -
+                        17:30, Dimanche - FERMÉ</a>
+                    <a href="#" class="btn btn-primary btn-square border border-white me-3"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-primary btn-square border border-white me-3"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-primary btn-square border border-white me-3"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-primary btn-square border border-white me-3"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="text-secondary display-6"><i class="fas fa-robot text-primary me-3"></i>AuTom</h1>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                    <a href="index.html#about-us" class="nav-item nav-link">À Propos</a>
+                    <a href="index.html#services" class="nav-item nav-link">Services</a>
+                    <a href="index.html#projects" class="nav-item nav-link">Projets</a>
+                    <a href="index.html#team" class="nav-item nav-link">Notre Équipe</a>
+                </div>
+                <a href="contact.html"
+                    class="btn btn-secondary py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Contactez-Nous</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid overflow-hidden px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s"
+                style="animation-delay: 1s;">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Première diapositive"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Deuxième diapositive"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Troisième diapositive"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Première diapositive" />
+                    <div class="carousel-caption">
+                        <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Solutions
+                            d'Automatisation Industrielle</p>
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">Transformer les
+                            Industries grâce à l'Automatisation Intelligente</h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                            style="animation-delay: 1.5s;">
+                            Nous proposons des technologies d'automatisation de pointe, incluant la programmation de
+                            PLC, les systèmes SCADA, la robotique et l'IIoT, pour optimiser les opérations
+                            industrielles.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated"
+                                data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;"
+                                href="index.html#about-us">Commencer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Deuxième diapositive" />
+                    <div class="carousel-caption">
+                        <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Usines Intelligentes
+                            & Industrie 4.0</p>
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">Automatisation
+                            Fluide pour une Efficacité Maximale</h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                            style="animation-delay: 1.5s;">
+                            Mettez en œuvre une automatisation pilotée par l'IA, une connectivité IoT et une maintenance
+                            prédictive pour un environnement de production plus intelligent et connecté.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated"
+                                data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;"
+                                href="#">Commencer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Troisième diapositive" />
+                    <div class="carousel-caption">
+                        <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Automatisation &
+                            Robotique</p>
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">Robotique
+                            Innovante pour une Fabrication Plus Intelligente</h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                            style="animation-delay: 1.5s;">
+                            Des bras robotisés aux lignes d'assemblage automatisées, nous fournissons des solutions
+                            robotiques avancées pour améliorer la productivité et réduire les temps d'arrêt.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated"
+                                data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;"
+                                href="#">Commencer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true"
+                    data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i
+                        class="fas fa-chevron-left fa-2x"></i></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true"
+                    data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i
+                        class="fas fa-chevron-right fa-2x"></i></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div id="about-us" class="container-fluid about py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="about-item-image d-flex">
+                        <img src="img/about.jpg" class="img-1 img-fluid w-50" alt="">
+                        <img src="img/about-3.jpg" class="img-2 img-fluid w-50" alt="">
+                        <div class="about-item-image-content">
+                            <img src="img/about-1.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.1s">
+                    <div class="about-item-content">
+                        <p class="text-uppercase text-secondary fs-5 mb-0">NOUS SOMMES UNE ENTREPRISE D'AUTOMATISATION
+                            INDUSTRIELLE</p>
+                        <h2 class="display-4 text-capitalize mb-3">Propulsons l'Avenir avec des Solutions
+                            d'Automatisation Intelligentes</h2>
+                        <p class="mb-4 fs-5">
+                            Nous nous spécialisons dans des solutions d'automatisation de pointe qui améliorent
+                            l'efficacité, la sécurité et la productivité dans les environnements industriels. De la
+                            programmation et des systèmes SCADA à la robotique, l'IoT et l'automatisation pilotée par
+                            l'IA, nous proposons des solutions complètes pour les usines intelligentes et les opérations
+                            industrielles.
+                        </p>
+                        <div class="pb-4 mb-4 border-bottom">
+                            <div class="row g-4">
+                                <div class="col-lg-4">
+                                    <div class="about-item-content-img">
+                                        <img src="img/about-2.jpg" class="img-fluid w-100" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="d-flex mb-4">
+                                        <div class="text-secondary">
+                                            <i class="fas fa-microchip fa-3x"></i>
+                                        </div>
+                                        <h4 class="ms-3">Technologies d'Automatisation Innovantes</h4>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="text-secondary">
+                                            <i class="fas fa-robot fa-3x"></i>
+                                        </div>
+                                        <h4 class="ms-3">Équipe d'Ingénierie Expert dans le domaine</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gy-0 gx-4 justify-content-between pb-4">
+                            <div class="col-lg-6">
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Satisfaction
+                                    Client à 100%</p>
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Ingénieurs en
+                                    Automatisation Certifiés</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Solutions
+                                    Intelligentes et Évolutives</p>
+                                <p class="text-dark mb-0"><i class="fas fa-check text-secondary me-1"></i> Services
+                                    Rentables et Flexibles</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp"
+                            data-wow-delay="0.1s" href="#services">Découvrir Plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid feature bg-light py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <p class="text-uppercase text-secondary fs-5 mb-0">Pourquoi Nous</p>
+                <h2 class="display-4 text-capitalize mb-3">Pourquoi Choisir Nos Solutions d'Automatisation</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-item text-center border p-5">
+                        <div class="feature-img bg-secondary d-inline-flex p-4">
+                            <i class="fas fa-microchip text-primary fa-5x"></i>
+                        </div>
+                        <a href="#" class="h4 d-block my-4">Technologie Avancée</a>
+                        <p class="mb-0">Nous utilisons l'IA, l'IoT et la robotique pour fournir des solutions
+                            d'automatisation industrielle de pointe.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-item text-center border p-5">
+                        <div class="feature-img bg-secondary d-inline-flex p-4">
+                            <i class="fas fa-robot text-primary fa-5x"></i>
+                        </div>
+                        <a href="#" class="h4 d-block my-4">Automatisation Sur Mesure</a>
+                        <p class="mb-0">Des solutions d'automatisation sur mesure, incluant PLC, SCADA et robotique,
+                            adaptées aux besoins de votre industrie.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="feature-item text-center border p-5">
+                        <div class="feature-img bg-secondary d-inline-flex p-4">
+                            <i class="fas fa-cogs text-primary fa-5x"></i>
+                        </div>
+                        <a href="#" class="h4 d-block my-4">Support Fiable</a>
+                        <p class="mb-0">Notre support technique 24/7 garantit que vos opérations fonctionnent sans
+                            interruption avec un temps d'arrêt minimal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+
+    <!-- Services Start -->
+    <div id="services" class="container-fluid service bg-light pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <p class="text-uppercase text-secondary fs-5 mb-0">Nos Services</p>
+                <h2 class="display-4 text-capitalize mb-3">Solutions Innovantes en Automatisation Industrielle</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-1.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                <i class="fas fa-microchip text-primary fa-4x"></i>
+                            </div>
+                            <a href="#" class="d-block fs-4 my-4">Systèmes PLC & SCADA</a>
+                            <p class="text-white mb-4">Conception et intégration de contrôleurs logiques programmables
+                                (PLC) et de systèmes SCADA pour le contrôle industriel automatisé.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-2.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                <i class="fas fa-robot text-primary fa-4x"></i>
+                            </div>
+                            <a href="#" class="d-block fs-4 my-4">Automatisation Robotique</a>
+                            <p class="text-white mb-4">Solutions robotiques sur mesure pour la fabrication, la
+                                logistique et l'automatisation industrielle.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-3.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                <i class="fas fa-network-wired text-primary fa-4x"></i>
+                            </div>
+                            <a href="#" class="d-block fs-4 my-4">IoT Industriel</a>
+                            <p class="text-white mb-4">Connexion des machines et des processus grâce à l'IoT industriel
+                                pour une surveillance et une analyse en temps réel.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-4.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                <i class="fas fa-cogs text-primary fa-4x"></i>
+                            </div>
+                            <a href="#" class="d-block fs-4 my-4">Systèmes de Vision Industrielle</a>
+                            <p class="text-white mb-4">Solutions avancées de vision industrielle pour le contrôle
+                                qualité, la détection de défauts et l'automatisation.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-5.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                <i class="fas fa-bolt text-primary fa-4x"></i>
+                            </div>
+                            <a href="#" class="d-block fs-4 my-4">Systèmes d'Alimentation & Contrôle</a>
+                            <p class="text-white mb-4">Conception et déploiement de systèmes électriques et de contrôle
+                                pour l'automatisation industrielle.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/service-6.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                <i class="fas fa-server text-primary fa-4x"></i>
+                            </div>
+                            <a href="#" class="d-block fs-4 my-4">Analyse de Données & IA</a>
+                            <p class="text-white mb-4">Exploitation de l'IA et du big data pour la maintenance
+                                prédictive et l'optimisation de la production.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Fact Counter -->
+    <div class="container-fluid counter py-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-box">
+                        <div class="counter-item">
+                            <div class="counter-item-style"></div>
+                            <div class="counter-item-inner p-5">
+                                <i class="fas fa-thumbs-up fa-4x text-secondary"></i>
+                                <h4 class="text-dark my-4">Projets Réalisés</h4>
+                                <div class="counter-counting">
+                                    <span class="text-secondary fs-2 fw-bold" data-toggle="counter-up">456</span>
+                                    <span class="h1 fw-bold text-secondary">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="counter-box">
+                        <div class="counter-item">
+                            <div class="counter-item-style"></div>
+                            <div class="counter-item-inner p-5">
+                                <i class="fas fa-users fa-4x text-secondary"></i>
+                                <h4 class="text-dark my-4">Clients Satisfaits</h4>
+                                <div class="counter-counting">
+                                    <span class="text-secondary fs-2 fw-bold" data-toggle="counter-up">513</span>
+                                    <span class="h1 fw-bold text-secondary">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="counter-box">
+                        <div class="counter-item">
+                            <div class="counter-item-style"></div>
+                            <div class="counter-item-inner p-5">
+                                <i class="fas fa-user fa-4x text-secondary"></i>
+                                <h4 class="text-dark my-4">Ingénieurs Qualifiés</h4>
+                                <div class="counter-counting">
+                                    <span class="text-secondary fs-2 fw-bold" data-toggle="counter-up">53</span>
+                                    <span class="h1 fw-bold text-secondary">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="counter-box">
+                        <div class="counter-item">
+                            <div class="counter-item-style"></div>
+                            <div class="counter-item-inner p-5">
+                                <i class="fas fa-heart fa-4x text-secondary"></i>
+                                <h4 class="text-dark my-4">Années d'Expérience</h4>
+                                <div class="counter-counting">
+                                    <span class="text-secondary fs-2 fw-bold" data-toggle="counter-up">17</span>
+                                    <span class="h1 fw-bold text-secondary">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center pt-4 wow fadeInUp" data-wow-delay="0.9s">
+                    <a class="counter-btn btn btn-secondary py-3 px-5" href="contact.html">Rejoignez-Nous</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact Counter -->
+
+    <!-- Projects Start -->
+    <div id="projects" class="container-fluid project py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <p class="text-uppercase text-secondary fs-5 mb-0">Nos Projets</p>
+                <h2 class="display-4 text-capitalize mb-3">Projets d'Automatisation Récemment Finalisés</h2>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="project-item">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-4">
+                                <div class="project-img">
+                                    <img src="img/project-1.jpg" class="img-fluid w-100" alt="Intégration Robotique">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="project-content">
+                                    <p class="fs-5 text-secondary mb-2">Automatisation Industrielle</p>
+                                    <a href="#" class="h4 text-primary">Intégration de Bras Robotisés dans la
+                                        Fabrication</a>
+                                    <p class="mb-3">Intégration de bras robotisés pour améliorer la vitesse et la
+                                        précision dans les processus de fabrication, réduisant ainsi la main-d'œuvre
+                                        humaine et les erreurs.</p>
+                                    <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="project-item">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-4">
+                                <div class="project-img">
+                                    <img src="img/project-2.jpg" class="img-fluid w-100"
+                                        alt="Intégration de Système SCADA">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="project-content">
+                                    <p class="fs-5 text-secondary mb-2">Contrôle des Processus</p>
+                                    <a href="#" class="h4 text-primary">Système SCADA pour une Usine de Traitement
+                                        d'Eau</a>
+                                    <p class="mb-3">Mise en œuvre d'un système SCADA pour surveiller et contrôler le
+                                        processus de traitement de l'eau en temps réel, améliorant ainsi l'efficacité et
+                                        la conformité.</p>
+                                    <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="project-item">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-4">
+                                <div class="project-img">
+                                    <img src="img/project-3.jpg" class="img-fluid w-100"
+                                        alt="Système de Maintenance Prédictive">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="project-content">
+                                    <p class="fs-5 text-secondary mb-2">Maintenance Prédictive</p>
+                                    <a href="#" class="h4 text-primary">Système de Maintenance Prédictive basé sur
+                                        l'IoT</a>
+                                    <p class="mb-3">Développement d'un système de maintenance prédictive utilisant des
+                                        capteurs IoT pour surveiller l'état des équipements et prévenir les pannes
+                                        inattendues.</p>
+                                    <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="project-item">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-4">
+                                <div class="project-img">
+                                    <img src="img/project-4.jpg" class="img-fluid w-100"
+                                        alt="Système d'Emballage Automatisé">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="project-content">
+                                    <p class="fs-5 text-secondary mb-2">Systèmes d'Automatisation</p>
+                                    <a href="#" class="h4 text-primary">Ligne d'Emballage Automatisée pour l'Industrie
+                                        Alimentaire</a>
+                                    <p class="mb-3">Conception et mise en œuvre d'un système d'emballage automatisé pour
+                                        la production alimentaire, garantissant cohérence, rapidité et précision.</p>
+                                    <a class="btn btn-secondary py-2 px-4" href="details.html">En Savoir Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+
+    <!-- Team Start -->
+    <div id="team" class="container-fluid team pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <p class="text-uppercase text-secondary fs-5 mb-0">Notre Équipe</p>
+                <h2 class="display-4 text-capitalize mb-3">Membres de l'équipe experts.</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="team-item border border-primary p-1">
+                        <div class="team-border-style-1"></div>
+                        <div class="team-border-style-2"></div>
+                        <div class="team-border-style-3"></div>
+                        <div class="team-border-style-4"></div>
+                        <div class="team-img">
+                            <img src="img/team-1.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon d-flex justify-content-around">
+                                <a class="btn btn-secondary btn-md-square text-white mx-3" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-top-0 bg-white py-3">
+                            <h4 class="mb-0">Masud Maria</h4>
+                            <p class="mb-0">PDG</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="team-item border border-primary p-1">
+                        <div class="team-border-style-1"></div>
+                        <div class="team-border-style-2"></div>
+                        <div class="team-border-style-3"></div>
+                        <div class="team-border-style-4"></div>
+                        <div class="team-img">
+                            <img src="img/team-2.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon d-flex justify-content-around">
+                                <a class="btn btn-secondary btn-md-square text-white mx-3" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-top-0 bg-white py-3">
+                            <h4 class="mb-0">Masud Maria</h4>
+                            <p class="mb-0">Directeur Technique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item border border-primary p-1">
+                        <div class="team-border-style-1"></div>
+                        <div class="team-border-style-2"></div>
+                        <div class="team-border-style-3"></div>
+                        <div class="team-border-style-4"></div>
+                        <div class="team-img">
+                            <img src="img/team-3.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon d-flex justify-content-around">
+                                <a class="btn btn-secondary btn-md-square text-white mx-3" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-top-0 bg-white py-3">
+                            <h4 class="mb-0">Masud Maria</h4>
+                            <p class="mb-0">Ingénieur en Automatisation Senior</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item border border-primary p-1">
+                        <div class="team-border-style-1"></div>
+                        <div class="team-border-style-2"></div>
+                        <div class="team-border-style-3"></div>
+                        <div class="team-border-style-4"></div>
+                        <div class="team-img">
+                            <img src="img/team-4.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon d-flex justify-content-around">
+                                <a class="btn btn-secondary btn-md-square text-white mx-3" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center border border-top-0 bg-white py-3">
+                            <h4 class="mb-0">Masud Maria</h4>
+                            <p class="mb-0">Ingénieur en Automatisation Junior</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div id="testimonial" class="container-fluid testimonial pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <p class="text-uppercase text-secondary fs-5 mb-0">Témoignages</p>
+                <h2 class="display-4 text-capitalize mb-3">Avis de Nos Clients</h2>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.4s">
+                <div class="testimonial-item bg-light p-4">
+                    <div class="position-relative">
+                        <i class="fa fa-quote-right fa-2x text-primary position-absolute"
+                            style="bottom: 30px; right: 0;"></i>
+                        <div class="mb-4 pb-4 border-bottom border-secondary">
+                            <p class="mb-0">"L'intégration du bras robotique dans notre ligne de production a
+                                révolutionné notre efficacité. Nous avons constaté une augmentation de 30 % de la
+                                productivité, et cela a considérablement réduit les erreurs humaines. L'expertise de
+                                l'équipe en automatisation industrielle a été déterminante pour ce succès."</p>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap">
+                            <div class="me-4">
+                                <img src="img/testimonial-1.jpg" class="img-fluid w-100"
+                                    style="width: 100px; height: 100px;" alt="">
+                            </div>
+                            <div class="d-block">
+                                <h4 class="text-dark">John D.</h4>
+                                <p class="m-0 pb-3">Responsable des Opérations</p>
+                                <div class="d-flex text-secondary pe-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-muted"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light p-4">
+                    <div class="position-relative">
+                        <i class="fa fa-quote-right fa-2x text-primary position-absolute"
+                            style="bottom: 30px; right: 0;"></i>
+                        <div class="mb-4 pb-4 border-bottom border-secondary">
+                            <p class="mb-0">"Le système SCADA mis en place dans notre usine de traitement d'eau a
+                                considérablement amélioré notre surveillance des processus. Nous pouvons maintenant
+                                suivre les données de performance en temps réel, ce qui a grandement amélioré notre
+                                prise de décision et l'efficacité globale de l'usine."</p>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap">
+                            <div class="me-4">
+                                <img src="img/testimonial-2.jpg" class="img-fluid w-100"
+                                    style="width: 100px; height: 100px;" alt="">
+                            </div>
+                            <div class="d-block">
+                                <h4 class="text-dark">Sarah L.</h4>
+                                <p class="m-0 pb-3">Superviseur d'Usine</p>
+                                <div class="d-flex text-secondary pe-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-muted"></i>
+                                    <i class="fas fa-star text-muted"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light p-4">
+                    <div class="position-relative">
+                        <i class="fa fa-quote-right fa-2x text-primary position-absolute"
+                            style="bottom: 30px; right: 0;"></i>
+                        <div class="mb-4 pb-4 border-bottom border-secondary">
+                            <p class="mb-0">"La mise en œuvre du système de maintenance prédictive basé sur l'IoT a
+                                considérablement réduit nos temps d'arrêt. Les capteurs surveillent l'état des
+                                équipements en temps réel, ce qui nous permet de planifier la maintenance de manière
+                                proactive. Cela nous a fait gagner du temps et de l'argent !"</p>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap">
+                            <div class="me-4">
+                                <img src="img/testimonial-3.jpg" class="img-fluid w-100"
+                                    style="width: 100px; height: 100px;" alt="">
+                            </div>
+                            <div class="d-block">
+                                <h4 class="text-dark">Michael T.</h4>
+                                <p class="m-0 pb-3">Responsable de la Maintenance</p>
+                                <div class="d-flex text-secondary pe-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Newsletter</h4>
+                            <p class="mb-3">Restez à la pointe de l'automatisation ! Abonnez-vous à notre newsletter
+                                pour recevoir les dernières actualités sur les innovations industrielles. Ne manquez
+                                rien—rejoignez notre communauté dès aujourd'hui !</p>
+                            <div class="position-relative mx-auto">
+                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text"
+                                    placeholder="Entrez votre email">
+                                <button type="button"
+                                    class="btn btn-secondary position-absolute top-0 end-0 py-2 mt-2 me-2">S'inscrire</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Explorer</h4>
+                        <a href="index.html"><i class="fas fa-angle-right me-2"></i> Accueil</a>
+                        <a href="index.html#services"><i class="fas fa-angle-right me-2"></i> Services</a>
+                        <a href="index.html#about-us"><i class="fas fa-angle-right me-2"></i> À Propos</a>
+                        <a href="index.html#projects"><i class="fas fa-angle-right me-2"></i> Projets Récents</a>
+                        <a href="index.html#testimonial"><i class="fas fa-angle-right me-2"></i> Témoignages</a>
+                        <a href="index.html#team"><i class="fas fa-angle-right me-2"></i> Notre Équipe</a>
+                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contactez-Nous</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Nos Services</h4>
+                        <a href="details.html"><i class="fas fa-angle-right me-2"></i> Systèmes PLC & SCADA</a>
+                        <a href="details.html"><i class="fas fa-angle-right me-2"></i> Automatisation Robotique</a>
+                        <a href="details.html"><i class="fas fa-angle-right me-2"></i> IoT Industriel</a>
+                        <a href="details.html"><i class="fas fa-angle-right me-2"></i> Systèmes de Vision
+                            Industrielle</a>
+                        <a href="details.html"><i class="fas fa-angle-right me-2"></i> Systèmes d'Alimentation &
+                            Contrôle</a>
+                        <a href="details.html"><i class="fas fa-angle-right me-2"></i> Analyse de Données & IA</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Coordonnées</h4>
+                        <a href="#"><i class="fa fa-map-marker-alt me-2"></i> Boumerdès, Algérie</a>
+                        <a href="#"><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                        <a href="#"><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                        <a href="#"><i class="fas fa-phone me-2"></i> +012 345 67890</a>
+                        <a href="#" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                        <div class="footer-btn d-flex align-items-center">
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-twitter text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-0" href=""><i
+                                    class="fab fa-linkedin-in text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>Nom de Votre Site</a>, Tous droits
+                        réservés.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    <!--/* Ce modèle est gratuit tant que vous conservez le lien de crédit de l'auteur ci-dessous. */-->
+                    <!--/* Si vous souhaitez utiliser le modèle sans le lien de crédit de l'auteur ci-dessous, */-->
+                    <!--/* vous pouvez acheter la licence de suppression de crédit sur "https://htmlcodex.com/credit-removal". */-->
+                    Conçu par <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
